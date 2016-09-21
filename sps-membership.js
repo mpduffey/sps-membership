@@ -19,7 +19,7 @@ var SpsMembership = (function () {
     SpsMembership = __decorate([
         core_1.Component({
             selector: 'sps-membership',
-            template: "\n\t\t<section id=\"membership\" class=\"section-padding white-bg text-center\">\n\t\t\t<div class=\"container mb-60\">\n\t\t\t\t<div class=\"row text-center\">\n\t\t\t\t\t<div *ngFor=\"let person of membership.members\" class=\"col-md-3\" style=\"height: 70px\">\n\t\t\t\t\t\t<div class=\"col-md-4\"><div class=\"img-circle\" [ngStyle]=\"{'background-image': 'url(' + person.img.src +')', 'background-position': person.img.bgposition}\"></div></div>\n\t\t\t\t\t\t<div class=\"col-md-8 align-left\"><p>{{person.name}}</p><p class=\"title\">{{person.title}}</p></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</section>\n\t",
+            template: "\n\t\t<section id=\"membership\" class=\"section-padding white-bg text-center\">\n\t\t\t<div class=\"container mb-60\">\n\t\t\t\t<div class=\"row text-center\">\n\t\t\t\t\t<div *ngFor=\"let person of membership.members\" class=\"col-md-3\" style=\"height: 70px\">\n\t\t\t\t\t\t<div class=\"col-md-4\"><i class=\"fa fa-user fa-lg\"></i><div class=\"img-circle\" [ngStyle]=\"{'background-image': 'url(' + person.img.src +')', 'background-position': person.img.bgposition}\"></div></div>\n\t\t\t\t\t\t<div class=\"col-md-8 align-left\"><p>{{person.name}}</p><p class=\"title\">{{person.title}}</p></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</section>\n\t",
             styles: ["\n\t\tp {margin-bottom: 0;}\n\t\t.align-left {text-align: left;}\n\t\t.title {font-size: 9px;}\n\t\t.img-circle {background-size:cover; background-repeat:no-repeat; width:50px; height:50px;}\n\t"]
         }), 
         __metadata('design:paramtypes', [])
